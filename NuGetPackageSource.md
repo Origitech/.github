@@ -21,3 +21,9 @@ Use your newly created token to add the Origitech package source to your NuGet c
 
 ```powershell
 dotnet nuget add source --username USERNAME --password GITHUB_TOKEN --name Origitech "https://nuget.pkg.github.com/Origitech/index.json"
+```
+## 3. Select the Package Source on the Nuget Package Manager
+
+Set the source to `All` or to `Origitech` to have access to  packages created within the company
+
+![20250602142239_rec_](https://github.com/user-attachments/assets/170d80cf-187b-4562-91f7-8aa7564a5f0c)
